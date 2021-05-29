@@ -1,0 +1,62 @@
+.box
+{ display: inline-block;
+	position: relative;
+    margin-top:80px;
+	width: 200px;
+	height: 100px;
+	box-sizing: border-box;
+	text-align: left;
+
+}
+.details > h3 {
+    
+    text-align:left
+}
+.box .icon
+{
+	width: 100px;
+	height: 50px;
+	background:  #101010;
+	transition: 0.5s;
+	transform-origin: top;
+	transform: translateY(0) rotateX(0deg);
+}
+.box .icon > img {width:100px}
+.box:hover .icon
+{
+ transform: translateY(100%) rotateX(90deg);
+}
+
+.box .icon .fa
+{
+	font-size: 4em;
+	line-height: 150px;
+	color: #999;
+}
+
+.box .details
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120px;
+	height: 50px;
+	background:  #101010;
+	transition: 0.5s;
+	transform-origin: bottom;
+	transform: translateY(-100px) rotateX(90deg);
+}
+.box:hover .details
+{
+	transform: translateY(0) rotateX(0deg);
+}
+.box .details h3
+{
+	margin: 15px 0 0 0;
+	padding: 0 0 0 5px;
+	line-height: 40px;
+    
+	font-size: 24px;
+	color: #fff;
+	font-family: sans-serif;
+}
