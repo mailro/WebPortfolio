@@ -1,7 +1,7 @@
-@import url(../box.css);
+@import url(/box.css);
 @font-face{
     font-family: "abster";
-    src:url("../font/abster-webfont.woff") format("woff");
+    src:url("/font/abster-webfont.woff") format("woff");
 }
 
 
