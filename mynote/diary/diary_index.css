@@ -38,6 +38,13 @@ body{
     
 }
 
+.sidebarbean > h2 {
+    font-family:abster;  
+    text-align: right; 
+    margin-right:125px; 
+    margin-top:25px;
+}
+
 .sidebar {
     float:left;
     width: 197px;
